@@ -1,0 +1,4 @@
+1.0.1: 
+    - First version of User
+    - create_users_table.php
+    - create_arrivals_table.php

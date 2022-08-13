@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: User
+
+# Model Form Field configuration
+form: $/admin/user/models/user/fields.yaml
+
+# Model Class name
+modelClass: Admin\User\Models\User
+
+# Default redirect location
+defaultRedirect: admin/user/users
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: admin/user/users/update/:id
+    redirectClose: admin/user/users
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: admin/user/users
+    redirectClose: admin/user/users
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
